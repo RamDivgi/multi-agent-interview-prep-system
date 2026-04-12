@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-Agent Interview Prep System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multi-Agent Interview Prep System</h1>
+
+        <form method="POST">
+            <input type="text" name="role" placeholder="Enter target role" required>
+            <textarea name="answer" placeholder="Enter your interview answer" required></textarea>
+            <button type="submit">Analyze</button>
+        </form>
+
+        <pre>{{ result }}</pre>
+    </div>
+</body>
+</html>
