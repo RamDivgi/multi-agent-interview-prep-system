@@ -1,45 +1,95 @@
-# Multi‑Agent Interview Preparation System
+# Multi-Agent Interview Preparation System 🎯
 
-An AI interview coaching system powered by multiple specialized agents to help candidates practice, improve, and track progress over time.
+An AI-powered interview coaching platform built using multiple specialized agents to help candidates practice interviews, improve answer quality, and track progress across sessions.
 
-## Features
+---
 
-- **Role-based interview question generation**
-  - Questions tailored to the position you’re targeting.
-- **Multi-agent coaching**
-  - **HR Agent**: behavioral and culture-fit prompts
-  - **Technical Agent**: role-specific technical questions + deeper follow-ups
-  - **Career Agent**: career narrative, growth story, and “why this role”
-  - **Scoring Agent**: rubric-based answer scoring and feedback
-- **Answer scoring & feedback**
-  - Evaluates responses for clarity, structure, relevance, correctness, and impact.
-- **Memory tracking**
-  - Stores performance insights across sessions to highlight recurring strengths and gaps.
+## 🚀 Project Overview
 
-## How It Works
+The **Multi-Agent Interview Preparation System** simulates a structured interview environment using multiple AI agents.
 
-1. Select your target role (e.g., Software Engineer, Data Analyst, Product Manager).
-2. Choose the interview focus (HR, Technical, Career).
-3. Receive generated questions and practice answers.
-4. Submit answers for evaluation.
-5. Review feedback and track improvement using stored session insights.
+It generates role-based questions, evaluates candidate answers, provides scoring, and stores session insights for continuous improvement.
 
-## Agents (What Each One Does)
+This project is useful for:
 
-- **HR Agent**
-  - Focuses on behavioral interview prep (STAR stories, communication, motivation).
-- **Technical Agent**
-  - Focuses on technical depth: coding, systems, domain knowledge, and follow-up probing.
-- **Career Agent**
-  - Helps you build a coherent narrative: trajectory, leadership signals, and role fit.
-- **Scoring Agent**
-  - Uses consistent rubrics to score answers and provide actionable improvements.
+- Software Engineer interview preparation  
+- Data Analyst interview preparation  
+- AI / ML interview preparation  
+- Placement training  
+- Career storytelling practice  
 
-## Expected Outcome
+---
 
-- More structured practice
-- Faster improvement through consistent scoring and feedback
-- Reduced repetition of weak areas via memory tracking
+## ✨ Features
 
+### 🎭 Role-Based Question Generation
+Questions are generated based on the target role selected by the user.
 
-Add your license information here.
+Examples:
+
+- Software Engineer  
+- Data Analyst  
+- Machine Learning Engineer  
+- Product Manager  
+
+---
+
+### 🤖 Multi-Agent System
+
+#### HR Agent
+- Behavioral interview questions  
+- Communication assessment  
+- STAR-based prompts  
+
+#### Technical Agent
+- Technical concept questions  
+- Role-specific follow-up questions  
+
+#### Career Agent
+- Career narrative building  
+- Motivation and role-fit questions  
+
+#### Scoring Agent
+- Evaluates answers using scoring rubrics  
+- Gives structured improvement feedback  
+
+---
+
+### 📊 Answer Scoring
+
+Answers are scored using:
+
+- Clarity  
+- Relevance  
+- Structure  
+- Technical correctness  
+- Impact  
+
+---
+
+### 🧠 Memory Tracking
+
+Stores previous sessions to identify:
+
+- Repeated weak areas  
+- Improvement trends  
+- Strong answer categories  
+
+---
+
+## ⚙️ Workflow
+
+```text
+Select Target Role
+↓
+Choose Interview Type
+↓
+Generate Question
+↓
+Submit Answer
+↓
+Score Answer
+↓
+Store Session
+↓
+Review Improvement
